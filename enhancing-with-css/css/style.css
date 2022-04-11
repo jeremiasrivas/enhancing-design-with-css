@@ -1,5 +1,8 @@
 /* Web Fonts ----------------------- */
-
+@font-face {
+  font-family: 'Abolition Regular';
+  src: url('../fonts/abolition-regular-webfont.woff') format('woff');
+}
 
 /* Base Styles --------------------- */
 * {
@@ -8,6 +11,16 @@
 html {
   font-size: 1.25em; /* 20px on most screens */  
 }
+
+body {
+  font-family: Verdana;
+}
+
+h1, h2 {
+  font-family: 'Abolition Regular', Impact, Charcoal, sans-serif;
+  font-weight: normal;
+}
+
 img {
   width: 100%; /* responsive images */
 }
