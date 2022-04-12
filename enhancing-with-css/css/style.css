@@ -13,14 +13,14 @@ html {
 }
 
 body {
-  font-family: 'Work Sans', sans-serif;
   color: #454959;
-  font-weight: 300;
+  font: 300 100%/1.5 'Work Sans', sans-serif;
 }
 
 h1, h2 {
   font-family: 'Abolition Regular', Impact, Charcoal, sans-serif;
   font-weight: normal;
+  line-height: 1.1;
 }
 
 h1 {
@@ -41,7 +41,25 @@ img {
 
 
 /* Main Styles --------------------- */
+header {
+  background-color: #f3753b;
+  color: white;
+}
 
+
+header, footer {
+  text-align: center;
+}
+
+
+
+.title {
+  letter-spacing: 1px;
+}
+
+main {
+  hyphens: auto;
+}
 
 /* Media Queries ------------------- */
 
