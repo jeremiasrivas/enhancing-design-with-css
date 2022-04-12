@@ -89,6 +89,7 @@ main {
   padding: .25rem 1rem;
   border-radius: 20px/10px;
   margin: 1rem auto;
+  box-shadow: 3px 4px 5px rgba(0, 10, 30, rgba(0, 10, 30, .8));
   background-color: #cc4e13;
   color: white;
   text-align: center;
