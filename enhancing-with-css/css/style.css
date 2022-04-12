@@ -13,6 +13,7 @@ html {
 }
 
 body {
+  margin: 1rem;
   color: #454959;
   font: 300 100%/1.5 'Work Sans', sans-serif;
 }
@@ -24,7 +25,7 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 4rem;
+  text-shadow: 1px 2px 3px rgba(0, 10, 30, .5 );
 }
 
 h2 {
@@ -42,6 +43,8 @@ img {
 
 /* Main Styles --------------------- */
 header {
+  padding: 10vh 1rem;
+  margin: -1rem -1rem 1rem;
   background-color: #f3753b;
   color: white;
 }
