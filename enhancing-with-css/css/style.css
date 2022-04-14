@@ -77,6 +77,11 @@ main {
   hyphens: auto;
 }
 
+section {
+  padding: 4rem 0;
+  border-bottom: 1px dashed #9599a9;
+}
+
 #wildlife {
   padding: 20% 15%;
   border-top: 12px solid #f3753b;
@@ -89,6 +94,8 @@ main {
 #wildlife a {
   color: #f7a27c;
 }
+
+
 
 .callout {
   display: block;
