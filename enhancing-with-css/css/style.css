@@ -75,6 +75,8 @@ header, footer {
 
 main {
   hyphens: auto;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 section {
@@ -110,5 +112,20 @@ section {
   font-size: 1.25rem;
 }
 
+.column:first-child {
+  margin-bottom: 4rem;
+}
+
 /* Media Queries ------------------- */
 
+@media screen and (min-width: 720px) {
+  header{
+  padding: 20vh 1rem;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  .title {
+    font-size: 1.25rem;
+  }
+}
